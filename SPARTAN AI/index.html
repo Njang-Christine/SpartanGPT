@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPARTAN AI</title>
+    <Style>
+*{
+    margin: 0;
+    padding: o;
+    background-color: rgb(27, 13, 80);
+    color: white;
+}
+body{
+    background: 70%;
+    margin: 0 auto;
+    
+}
+.logo{
+    color: orangered;
+    display: flex;
+    position: relative;
+    left: -370px;
+    background-color: rgb(50, 50, 114);
+    font-size: 20px;
+    bottom: -10px;
+}
+.navbar{
+    display: flex;
+    background-color: rgb(50, 50, 114);
+    padding: 15px;
+    justify-content: space-between;
+}
+.navlinks{
+    display: flex;
+    position: relative;
+    right: 20%;
+    gap: 15%;
+    background-color: rgb(50, 50, 114);
+}
+.link:hover{
+    color: orangered;
+}
+.link::after{
+    content: " ";
+    position: absolute;
+    height: 2px;
+    background-color: orangered;
+    transition: 0.3s ease-in-out;
+    bottom: -2px;
+    width: 0;
+    left: 0;
+}
+.link :hover::after{
+    width: 100%;
+}
+hr{
+    background-color: orangered;
+    height: 2px;
+}
+.navbar .navlinks .link{
+    text-decoration: none;
+    background-color: rgb(50, 50, 114);
+    
+}
+.logo1 p{
+    padding: 5px;
+    width: 2%;
+    height: 2%;
+    border-radius: 50%;
+    background-color: rgb(0, 157, 255);
+    text-align: center;
+    position: relative;
+    right: -15%;
+    bottom: -27px;
+}
+.logo1 h2{
+    position: relative;
+    right: -18%;
+    font-size: 15px;
+    background-color: rgb(24, 38, 89);
+    width: 30%;
+    border-radius: 5%;
+    display: block;
+}
+.logo1 .time{
+    position: relative;
+    right: -46%;
+    font-size: 12px;
+}
+.logo1 .me{
+    position: relative;
+    right: -50%;
+    width: 60%;
+}
+.logo1 .me .time1{
+    position: relative;
+    right: -44%;
+    font-size: 12px;
+    top: -16px;
+}
+.logo1 .me p1{
+    border-radius: 50%;
+    background-color: orangered;
+    text-align: center;
+    position: relative;
+    right: -49%;
+    top: -22px;
+    padding: 7px;
+}
+.me h2{
+    background-color:rgba(255,69,0,0.2);
+}
+.container{
+    background-color:black ;
+    position: relative;
+    padding: 20px 10px 20px 10px;
+    margin-left: 395px;
+    margin-top: 150px;
+    right: 180px;
+    margin-right: 23px;
+    
+}
+.container span:hover{
+    background-color: orangered;
+    transition: 0s;
+}
+.container span{
+    background-color:rgba(255,69,0,0.2);
+    position: relative;
+    
+}
+span{
+    padding: 10px;
+    border-radius: 20px;
+
+}
+.display{
+    position: relative;
+    padding: 8px;
+    width: 1050px;
+    color: white;
+    background: 100%;
+    border-radius: 20px;
+    
+}
+.loader{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    transition: color-change 2s infinite;
+    position: relative;
+    float: right;
+    left: -1200px;
+    bottom: -15px;
+    
+}
+.loader::before, .loader::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    height: 50%;
+    transform: translate(-50%, -50%);
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: rgb(65, 65, 209);
+    animation: loading 1.5s infinite;
+
+
+}
+.loader::after{
+    animation-delay: 0.5s;
+}
+.send{
+    background-color: orangered;
+    display: flex;
+    position: relative;
+    right: -1000px;
+    top: -30px;
+    border-width:2px 0 2px 4px;
+    
+}
+button{
+    position: relative;
+    right: -1000px;
+    top: -30px;
+    background-color: orangered;
+    border-radius: 50%;
+}
+@media(max-width: 768px) {
+
+
+    }
+    </Style>
+</head>
+<body>
+    <div>
+        <div class="navbar">
+            <img src="Robot.png" style="width: 40px;border-radius: 50%;position: relative;right: -200px;">
+            <div class="logo">Spartans GPT</div>
+          
+            <div class="navlinks">
+                <a class ="link" href="">Home</a>
+                <a class ="link" href="">Features</a>
+                <a class ="link" href="">Examples</a>
+                <a class ="link" href="">Team</a>
+        </div>
+    </div>
+    <hr>
+    <div class="logo1">
+    <div>
+         <p>S</p>
+        <h2>Hello! i'm Spartans GPT, your intelligent assistant. How can i help you today?</h1>
+            <div class="time">10:32AM</div>
+    </div>
+    <div class="me">
+        <h2>Hi! can you tell me about your Features?</h2>
+        <p1>U</p1>
+        <div class="time1">10:33AM</div>
+    </div>
+    <div>
+        <p>S</p>
+        <h2>Of course! I'm designed by the spartans intern team with several powerful Features<br><br>
+        <img src="jet.png" style="width: 20px;height: 20px;border-radius: 50%;position: relative;bottom: -5px;"> Smart Response - I understand natural languages and provide helpful answers<br>
+        <img src="bulb.png" style="width: 20px;height: 20px;border-radius: 50%;position: relative;bottom: -5px;"> Auto suggestions - I can predict what you might want to ask next<br>
+        <img src="lens.png" style="width: 20px;height: 20px;border-radius: 50%;position: relative;bottom: -5px;"> Search integrations - I can search the wed for information<br>
+        <img src="data.png" style="width: 20px;height: 20px;border-radius: 50%;position: relative;bottom: -5px;"> Data analysis - I can analyze data and provide insights<br>
+        <img src="code.png" style="width: 20px;height: 20px;border-radius: 50%;position: relative;bottom: -5px;"> Code generator - I can help write and explain code<br>
+        <br>
+        Would you like a demonstration of any speecific Features?</h2>
+        <div class="time">10:34AM</div>
+   </div>
+   <div>
+    <p>S</p>
+        <div class="loader"></div>
+        <div class="loader"></div>
+        <div class="loader"></div>
+</div>
+<form>
+<div>
+    <div class="container">
+           <span>How does auto-complete work?</span>
+           <span>Tell me about data analysis</span>
+           <span>Can you create a CSS animation?</span>
+           <span>Help me with aa Python script</span>
+           <span>Who are the spartan team</span>
+        <br><br>
+        <div class="display">
+        <input type="text" name="display" class="display" placeholder="type your message here....">
+        <button type="submit"><img src="send.png" alt="" width="10px"height="10px" background-color="orangered" ></button>
+    </div>
+</form>
+</div>
+</body>
+</html>
