@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    /* background-color:rgb(31, 31, 41); */
+    
+}
+body{
+    background-color:rgb(14, 14, 32);
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+
+.container1{
+    padding: 50px;
+    width: 100%;
+    background-color: rgb(44, 44, 65);
+    border:1px solid orangered;
+    border-radius: 15px;
+    padding-left: 120px ;
+    padding-right: 120px;
+    margin-top: 30px;
+    
+
+}
+.container1 p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container1 h1{
+    color: orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.button{
+    background-color: orangered;
+    padding: 25px;
+    border-radius: 24ch;
+    margin-top: 50px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow:0 2px 11px  orangered;
+    cursor: pointer;
+    
+    
+}
+.container2 h2{
+    color: orangered;
+    text-decoration: underline orangered;
+    margin-top: 2em;
+}
+.container2 p{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.bottle{
+    padding: 60px;
+    background-color:rgb(14, 14, 32);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.bottle div{
+   
+    height: 25rem;
+    width: 23rem;
+    background-color:rgb(44, 44, 65);
+    margin: 9px;
+    border-radius: 15px;
+}
+.robot{
+    width: 40%;
+    height: auto;
+    border-radius: 50%;
+    margin-left: 6rem;
+    margin-top: 10px;
+    border: 2px solid orangered;
+  
+
+}
+.robot span{
+    background-color: orangered;
+    padding: 4px;
+    border: none;
+    border-radius: 25ch;
+}
+.text{
+    text-align: center;
+    font-size: 25px;
+    color: orangered;
+}
+.code{
+    background-color: orangered;
+    padding: 8px;
+    border: none;
+    border-radius: 25ch;
+}
+.meal{
+    color: gray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.meal1{
+    color: gray;
+    text-align: center;
+}
+.tom{
+    text-align: center;
+}
+.pagefooter{
+    padding: 25px;
+    background-color:rgb(44, 44, 65) ;
+    text-align: center;
+}
+.nath{
+    color: orangered;
+    font-size: 30px;
+    font: bold;
+}
+.hr{
+    color: orangered;
+}
+
+@media(max-width:900px ){
+    
+body{
+    background-color:rgb(37, 37, 46);
+    margin-left: 0rem;
+    margin-right: 0rem;
+
+        
+    }
+    .code{
+        font-size: 10px;
+        padding: 6px;
+        }
+   
+}
+@media(max-width:800px ){
+.container1 p{
+    text-align:left;
+    font-size: 11px;
+}
+.container2 p{
+    font-size: 11px;
+}
+   
+
+}
+
+
+
+
+
+
+
+
